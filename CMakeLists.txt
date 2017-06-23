@@ -17,11 +17,13 @@ file(GLOB sparsecoding sparsecodingbox/omp.cpp
 
 file(GLOB kSVD dictionarylearningbox/kSVD/kSVD.cpp) 
 
+file(GLOB LCKSVD dictionarylearningbox/LCKSVD/*.cpp)
+
 #add -fopenmp flag
 SET(GCC_COVERAGE_COMPILE_FLAGS "-fopenmp")
 SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}" )
 
-cuda_add_executable(main main.cpp ${sparsecoding} ${kSVD} ${utilities})
+cuda_add_executable(main main.cpp ${sparsecoding} ${LCKSVD} ${kSVD} ${utilities})
        
 target_link_libraries(main ${OpenCV_LIBS} cublas cusolver)
 

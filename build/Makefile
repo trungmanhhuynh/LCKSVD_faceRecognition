@@ -114,6 +114,30 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+dictionarylearningbox/LCKSVD/LCKSVD_initialize.o: dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o
+.PHONY : dictionarylearningbox/LCKSVD/LCKSVD_initialize.o
+
+# target to build an object file
+dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o
+.PHONY : dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o
+
+dictionarylearningbox/LCKSVD/LCKSVD_initialize.i: dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.i
+.PHONY : dictionarylearningbox/LCKSVD/LCKSVD_initialize.i
+
+# target to preprocess a source file
+dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.i
+.PHONY : dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.i
+
+dictionarylearningbox/LCKSVD/LCKSVD_initialize.s: dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.s
+.PHONY : dictionarylearningbox/LCKSVD/LCKSVD_initialize.s
+
+# target to generate assembly for a file
+dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.s
+.PHONY : dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.s
+
 dictionarylearningbox/kSVD/kSVD.o: dictionarylearningbox/kSVD/kSVD.cpp.o
 .PHONY : dictionarylearningbox/kSVD/kSVD.o
 
@@ -258,29 +282,29 @@ utilities/computePSNR.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utilities/computePSNR.cpp.s
 .PHONY : utilities/computePSNR.cpp.s
 
-utilities/conmpute_variance.o: utilities/conmpute_variance.cpp.o
-.PHONY : utilities/conmpute_variance.o
+utilities/compute_variance.o: utilities/compute_variance.cpp.o
+.PHONY : utilities/compute_variance.o
 
 # target to build an object file
-utilities/conmpute_variance.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o
-.PHONY : utilities/conmpute_variance.cpp.o
+utilities/compute_variance.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utilities/compute_variance.cpp.o
+.PHONY : utilities/compute_variance.cpp.o
 
-utilities/conmpute_variance.i: utilities/conmpute_variance.cpp.i
-.PHONY : utilities/conmpute_variance.i
+utilities/compute_variance.i: utilities/compute_variance.cpp.i
+.PHONY : utilities/compute_variance.i
 
 # target to preprocess a source file
-utilities/conmpute_variance.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utilities/conmpute_variance.cpp.i
-.PHONY : utilities/conmpute_variance.cpp.i
+utilities/compute_variance.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utilities/compute_variance.cpp.i
+.PHONY : utilities/compute_variance.cpp.i
 
-utilities/conmpute_variance.s: utilities/conmpute_variance.cpp.s
-.PHONY : utilities/conmpute_variance.s
+utilities/compute_variance.s: utilities/compute_variance.cpp.s
+.PHONY : utilities/compute_variance.s
 
 # target to generate assembly for a file
-utilities/conmpute_variance.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utilities/conmpute_variance.cpp.s
-.PHONY : utilities/conmpute_variance.cpp.s
+utilities/compute_variance.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utilities/compute_variance.cpp.s
+.PHONY : utilities/compute_variance.cpp.s
 
 utilities/csvread.o: utilities/csvread.cpp.o
 .PHONY : utilities/csvread.o
@@ -603,6 +627,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... main"
 	@echo "... rebuild_cache"
+	@echo "... dictionarylearningbox/LCKSVD/LCKSVD_initialize.o"
+	@echo "... dictionarylearningbox/LCKSVD/LCKSVD_initialize.i"
+	@echo "... dictionarylearningbox/LCKSVD/LCKSVD_initialize.s"
 	@echo "... dictionarylearningbox/kSVD/kSVD.o"
 	@echo "... dictionarylearningbox/kSVD/kSVD.i"
 	@echo "... dictionarylearningbox/kSVD/kSVD.s"
@@ -621,9 +648,9 @@ help:
 	@echo "... utilities/computePSNR.o"
 	@echo "... utilities/computePSNR.i"
 	@echo "... utilities/computePSNR.s"
-	@echo "... utilities/conmpute_variance.o"
-	@echo "... utilities/conmpute_variance.i"
-	@echo "... utilities/conmpute_variance.s"
+	@echo "... utilities/compute_variance.o"
+	@echo "... utilities/compute_variance.i"
+	@echo "... utilities/compute_variance.s"
 	@echo "... utilities/csvread.o"
 	@echo "... utilities/csvread.i"
 	@echo "... utilities/csvread.s"

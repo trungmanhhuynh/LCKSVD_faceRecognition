@@ -11,7 +11,7 @@
 
 
 struct kSVDParameters{
-   int kSVDiteration ;
+   int iterations ;
    int nAtoms ;               //number of atoms of dictionary 
    int featureSize ;          //number of rows of dictionary 
    int debug ;

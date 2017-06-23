@@ -4,6 +4,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.cpp.o"
   "CMakeFiles/main.dir/sparsecodingbox/omp.cpp.o"
   "CMakeFiles/main.dir/sparsecodingbox/omp_v1.cpp.o"
+  "CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o"
   "CMakeFiles/main.dir/dictionarylearningbox/kSVD/kSVD.cpp.o"
   "CMakeFiles/main.dir/utilities/mat2vector_v1.cpp.o"
   "CMakeFiles/main.dir/utilities/l2norm_vec.cpp.o"
@@ -18,9 +19,9 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/main.dir/utilities/get_seconds.cpp.o"
   "CMakeFiles/main.dir/utilities/computePSNR.cpp.o"
   "CMakeFiles/main.dir/utilities/vector2mat_v1.cpp.o"
-  "CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o"
   "CMakeFiles/main.dir/utilities/matrix_multiply.cpp.o"
   "CMakeFiles/main.dir/utilities/csvread.cpp.o"
+  "CMakeFiles/main.dir/utilities/compute_variance.cpp.o"
   "main.pdb"
   "main"
 )

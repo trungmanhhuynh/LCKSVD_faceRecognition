@@ -1629,9 +1629,32 @@ CMakeFiles/main.dir/sparsecodingbox/omp_v1.cpp.o.provides: CMakeFiles/main.dir/s
 
 CMakeFiles/main.dir/sparsecodingbox/omp_v1.cpp.o.provides.build: CMakeFiles/main.dir/sparsecodingbox/omp_v1.cpp.o
 
+CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o: ../dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp
+
+CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp > CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.i
+
+CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp -o CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.s
+
+CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o.requires:
+.PHONY : CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o.requires
+
+CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o.provides: CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o.provides
+
+CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o.provides.build: CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o
+
 CMakeFiles/main.dir/dictionarylearningbox/kSVD/kSVD.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/dictionarylearningbox/kSVD/kSVD.cpp.o: ../dictionarylearningbox/kSVD/kSVD.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/dictionarylearningbox/kSVD/kSVD.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/dictionarylearningbox/kSVD/kSVD.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/kSVD/kSVD.cpp
 
@@ -1654,7 +1677,7 @@ CMakeFiles/main.dir/dictionarylearningbox/kSVD/kSVD.cpp.o.provides.build: CMakeF
 
 CMakeFiles/main.dir/utilities/mat2vector_v1.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/mat2vector_v1.cpp.o: ../utilities/mat2vector_v1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/mat2vector_v1.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/mat2vector_v1.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/mat2vector_v1.cpp
 
@@ -1677,7 +1700,7 @@ CMakeFiles/main.dir/utilities/mat2vector_v1.cpp.o.provides.build: CMakeFiles/mai
 
 CMakeFiles/main.dir/utilities/l2norm_vec.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/l2norm_vec.cpp.o: ../utilities/l2norm_vec.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/l2norm_vec.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/l2norm_vec.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/l2norm_vec.cpp
 
@@ -1700,7 +1723,7 @@ CMakeFiles/main.dir/utilities/l2norm_vec.cpp.o.provides.build: CMakeFiles/main.d
 
 CMakeFiles/main.dir/utilities/inner_product.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/inner_product.cpp.o: ../utilities/inner_product.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/inner_product.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/inner_product.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/inner_product.cpp
 
@@ -1723,7 +1746,7 @@ CMakeFiles/main.dir/utilities/inner_product.cpp.o.provides.build: CMakeFiles/mai
 
 CMakeFiles/main.dir/utilities/img2patches.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/img2patches.cpp.o: ../utilities/img2patches.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/img2patches.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/img2patches.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/img2patches.cpp
 
@@ -1746,7 +1769,7 @@ CMakeFiles/main.dir/utilities/img2patches.cpp.o.provides.build: CMakeFiles/main.
 
 CMakeFiles/main.dir/utilities/readimage.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/readimage.cpp.o: ../utilities/readimage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/readimage.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/readimage.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/readimage.cpp
 
@@ -1769,7 +1792,7 @@ CMakeFiles/main.dir/utilities/readimage.cpp.o.provides.build: CMakeFiles/main.di
 
 CMakeFiles/main.dir/utilities/patches2img.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/patches2img.cpp.o: ../utilities/patches2img.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/patches2img.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/patches2img.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/patches2img.cpp
 
@@ -1792,7 +1815,7 @@ CMakeFiles/main.dir/utilities/patches2img.cpp.o.provides.build: CMakeFiles/main.
 
 CMakeFiles/main.dir/utilities/normalize_matrix_norml2.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/normalize_matrix_norml2.cpp.o: ../utilities/normalize_matrix_norml2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/normalize_matrix_norml2.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/normalize_matrix_norml2.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/normalize_matrix_norml2.cpp
 
@@ -1815,7 +1838,7 @@ CMakeFiles/main.dir/utilities/normalize_matrix_norml2.cpp.o.provides.build: CMak
 
 CMakeFiles/main.dir/utilities/show_dictionary.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/show_dictionary.cpp.o: ../utilities/show_dictionary.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/show_dictionary.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/show_dictionary.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/show_dictionary.cpp
 
@@ -1838,7 +1861,7 @@ CMakeFiles/main.dir/utilities/show_dictionary.cpp.o.provides.build: CMakeFiles/m
 
 CMakeFiles/main.dir/utilities/add_noise_to_image.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/add_noise_to_image.cpp.o: ../utilities/add_noise_to_image.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/add_noise_to_image.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/add_noise_to_image.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/add_noise_to_image.cpp
 
@@ -1861,7 +1884,7 @@ CMakeFiles/main.dir/utilities/add_noise_to_image.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/main.dir/utilities/normalize_matrix_range.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/normalize_matrix_range.cpp.o: ../utilities/normalize_matrix_range.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/normalize_matrix_range.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/normalize_matrix_range.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/normalize_matrix_range.cpp
 
@@ -1884,7 +1907,7 @@ CMakeFiles/main.dir/utilities/normalize_matrix_range.cpp.o.provides.build: CMake
 
 CMakeFiles/main.dir/utilities/get_seconds.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/get_seconds.cpp.o: ../utilities/get_seconds.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/get_seconds.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/get_seconds.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/get_seconds.cpp
 
@@ -1907,7 +1930,7 @@ CMakeFiles/main.dir/utilities/get_seconds.cpp.o.provides.build: CMakeFiles/main.
 
 CMakeFiles/main.dir/utilities/computePSNR.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/computePSNR.cpp.o: ../utilities/computePSNR.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/computePSNR.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/computePSNR.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/computePSNR.cpp
 
@@ -1930,7 +1953,7 @@ CMakeFiles/main.dir/utilities/computePSNR.cpp.o.provides.build: CMakeFiles/main.
 
 CMakeFiles/main.dir/utilities/vector2mat_v1.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/vector2mat_v1.cpp.o: ../utilities/vector2mat_v1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/vector2mat_v1.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/vector2mat_v1.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/vector2mat_v1.cpp
 
@@ -1950,29 +1973,6 @@ CMakeFiles/main.dir/utilities/vector2mat_v1.cpp.o.provides: CMakeFiles/main.dir/
 .PHONY : CMakeFiles/main.dir/utilities/vector2mat_v1.cpp.o.provides
 
 CMakeFiles/main.dir/utilities/vector2mat_v1.cpp.o.provides.build: CMakeFiles/main.dir/utilities/vector2mat_v1.cpp.o
-
-CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o: ../utilities/conmpute_variance.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_20)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/conmpute_variance.cpp
-
-CMakeFiles/main.dir/utilities/conmpute_variance.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utilities/conmpute_variance.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/manh/Research/LCKSVD_faceRecognition/utilities/conmpute_variance.cpp > CMakeFiles/main.dir/utilities/conmpute_variance.cpp.i
-
-CMakeFiles/main.dir/utilities/conmpute_variance.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utilities/conmpute_variance.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/manh/Research/LCKSVD_faceRecognition/utilities/conmpute_variance.cpp -o CMakeFiles/main.dir/utilities/conmpute_variance.cpp.s
-
-CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o.requires:
-.PHONY : CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o.requires
-
-CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o.provides: CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o.provides.build
-.PHONY : CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o.provides
-
-CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o.provides.build: CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o
 
 CMakeFiles/main.dir/utilities/matrix_multiply.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utilities/matrix_multiply.cpp.o: ../utilities/matrix_multiply.cpp
@@ -2020,11 +2020,35 @@ CMakeFiles/main.dir/utilities/csvread.cpp.o.provides: CMakeFiles/main.dir/utilit
 
 CMakeFiles/main.dir/utilities/csvread.cpp.o.provides.build: CMakeFiles/main.dir/utilities/csvread.cpp.o
 
+CMakeFiles/main.dir/utilities/compute_variance.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/utilities/compute_variance.cpp.o: ../utilities/compute_variance.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/utilities/compute_variance.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/utilities/compute_variance.cpp.o -c /home/manh/Research/LCKSVD_faceRecognition/utilities/compute_variance.cpp
+
+CMakeFiles/main.dir/utilities/compute_variance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/utilities/compute_variance.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/manh/Research/LCKSVD_faceRecognition/utilities/compute_variance.cpp > CMakeFiles/main.dir/utilities/compute_variance.cpp.i
+
+CMakeFiles/main.dir/utilities/compute_variance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/utilities/compute_variance.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/manh/Research/LCKSVD_faceRecognition/utilities/compute_variance.cpp -o CMakeFiles/main.dir/utilities/compute_variance.cpp.s
+
+CMakeFiles/main.dir/utilities/compute_variance.cpp.o.requires:
+.PHONY : CMakeFiles/main.dir/utilities/compute_variance.cpp.o.requires
+
+CMakeFiles/main.dir/utilities/compute_variance.cpp.o.provides: CMakeFiles/main.dir/utilities/compute_variance.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utilities/compute_variance.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/utilities/compute_variance.cpp.o.provides
+
+CMakeFiles/main.dir/utilities/compute_variance.cpp.o.provides.build: CMakeFiles/main.dir/utilities/compute_variance.cpp.o
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.o" \
 "CMakeFiles/main.dir/sparsecodingbox/omp.cpp.o" \
 "CMakeFiles/main.dir/sparsecodingbox/omp_v1.cpp.o" \
+"CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o" \
 "CMakeFiles/main.dir/dictionarylearningbox/kSVD/kSVD.cpp.o" \
 "CMakeFiles/main.dir/utilities/mat2vector_v1.cpp.o" \
 "CMakeFiles/main.dir/utilities/l2norm_vec.cpp.o" \
@@ -2039,9 +2063,9 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/utilities/get_seconds.cpp.o" \
 "CMakeFiles/main.dir/utilities/computePSNR.cpp.o" \
 "CMakeFiles/main.dir/utilities/vector2mat_v1.cpp.o" \
-"CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o" \
 "CMakeFiles/main.dir/utilities/matrix_multiply.cpp.o" \
-"CMakeFiles/main.dir/utilities/csvread.cpp.o"
+"CMakeFiles/main.dir/utilities/csvread.cpp.o" \
+"CMakeFiles/main.dir/utilities/compute_variance.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS = \
@@ -2051,6 +2075,7 @@ main_EXTERNAL_OBJECTS = \
 main: CMakeFiles/main.dir/main.cpp.o
 main: CMakeFiles/main.dir/sparsecodingbox/omp.cpp.o
 main: CMakeFiles/main.dir/sparsecodingbox/omp_v1.cpp.o
+main: CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o
 main: CMakeFiles/main.dir/dictionarylearningbox/kSVD/kSVD.cpp.o
 main: CMakeFiles/main.dir/utilities/mat2vector_v1.cpp.o
 main: CMakeFiles/main.dir/utilities/l2norm_vec.cpp.o
@@ -2065,9 +2090,9 @@ main: CMakeFiles/main.dir/utilities/normalize_matrix_range.cpp.o
 main: CMakeFiles/main.dir/utilities/get_seconds.cpp.o
 main: CMakeFiles/main.dir/utilities/computePSNR.cpp.o
 main: CMakeFiles/main.dir/utilities/vector2mat_v1.cpp.o
-main: CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o
 main: CMakeFiles/main.dir/utilities/matrix_multiply.cpp.o
 main: CMakeFiles/main.dir/utilities/csvread.cpp.o
+main: CMakeFiles/main.dir/utilities/compute_variance.cpp.o
 main: CMakeFiles/main.dir/utilities/./main_generated_mvmul_cublas.cu.o
 main: CMakeFiles/main.dir/utilities/./main_generated_mmul_cublas.cu.o
 main: CMakeFiles/main.dir/build.make
@@ -2132,6 +2157,7 @@ CMakeFiles/main.dir/build: main
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/main.cpp.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/sparsecodingbox/omp.cpp.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/sparsecodingbox/omp_v1.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/dictionarylearningbox/kSVD/kSVD.cpp.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/utilities/mat2vector_v1.cpp.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/utilities/l2norm_vec.cpp.o.requires
@@ -2146,9 +2172,9 @@ CMakeFiles/main.dir/requires: CMakeFiles/main.dir/utilities/normalize_matrix_ran
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/utilities/get_seconds.cpp.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/utilities/computePSNR.cpp.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/utilities/vector2mat_v1.cpp.o.requires
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/utilities/matrix_multiply.cpp.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/utilities/csvread.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/utilities/compute_variance.cpp.o.requires
 .PHONY : CMakeFiles/main.dir/requires
 
 CMakeFiles/main.dir/clean:

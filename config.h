@@ -23,5 +23,16 @@
 #define BOLDMAGENTA "\033[1m\033[35m"      /* Bold Magenta */
 
 //Changes these paramaters to make effect on results 
+const int sparsityThres = 30 ; 
+const float sqrtAlpha = 4; 
+const float sqrtBeta = 2; 
+const int dictSize = 570;
+const int featureSize = 504 ;
+const int trainSize = 1216; 
+const int nClass = 38  ; 
+const int iterations = 50 ;
+const int iterations4init = 20; 
+
+
 #endif
 

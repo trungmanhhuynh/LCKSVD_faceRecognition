@@ -4,13 +4,14 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
+  "/home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp" "/home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles/main.dir/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp.o"
   "/home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/kSVD/kSVD.cpp" "/home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles/main.dir/dictionarylearningbox/kSVD/kSVD.cpp.o"
   "/home/manh/Research/LCKSVD_faceRecognition/main.cpp" "/home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles/main.dir/main.cpp.o"
   "/home/manh/Research/LCKSVD_faceRecognition/sparsecodingbox/omp.cpp" "/home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles/main.dir/sparsecodingbox/omp.cpp.o"
   "/home/manh/Research/LCKSVD_faceRecognition/sparsecodingbox/omp_v1.cpp" "/home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles/main.dir/sparsecodingbox/omp_v1.cpp.o"
   "/home/manh/Research/LCKSVD_faceRecognition/utilities/add_noise_to_image.cpp" "/home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles/main.dir/utilities/add_noise_to_image.cpp.o"
   "/home/manh/Research/LCKSVD_faceRecognition/utilities/computePSNR.cpp" "/home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles/main.dir/utilities/computePSNR.cpp.o"
-  "/home/manh/Research/LCKSVD_faceRecognition/utilities/conmpute_variance.cpp" "/home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles/main.dir/utilities/conmpute_variance.cpp.o"
+  "/home/manh/Research/LCKSVD_faceRecognition/utilities/compute_variance.cpp" "/home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles/main.dir/utilities/compute_variance.cpp.o"
   "/home/manh/Research/LCKSVD_faceRecognition/utilities/csvread.cpp" "/home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles/main.dir/utilities/csvread.cpp.o"
   "/home/manh/Research/LCKSVD_faceRecognition/utilities/get_seconds.cpp" "/home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles/main.dir/utilities/get_seconds.cpp.o"
   "/home/manh/Research/LCKSVD_faceRecognition/utilities/img2patches.cpp" "/home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles/main.dir/utilities/img2patches.cpp.o"

@@ -21,7 +21,7 @@ std::vector<float> omp(std::vector<float> inputData, std::vector<float> dictiona
    //1. For each input patch
    for(inputIdx = 0 ; inputIdx < inputSize ; inputIdx++){
 
-      std::cout <<BOLDRED << "inputIdx = " << inputIdx << RESET <<  std::endl ;
+      //std::cout <<BOLDRED << "inputIdx = " << inputIdx << RESET <<  std::endl ;
       //Assign residual vector = input patch 
       std::vector<float> thisInput(inputData.begin() + inputIdx*param.featureSize, inputData.begin() + (inputIdx+1)*param.featureSize);
 		std::vector<float> residualVec(thisInput.begin(),thisInput.end()); 	

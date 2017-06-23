@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/manh/Research/LCKSVD_faceRecognition/config.h
+.././config.h
 iomanip
 -
 iostream
@@ -20,7 +20,7 @@ opencv2/opencv.hpp
 opencv2/highgui/highgui.hpp
 -
 
-/home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/kSVD/kSVD.h
+.././dictionarylearningbox/kSVD/kSVD.h
 iostream
 -
 opencv2/core.hpp
@@ -30,31 +30,9 @@ opencv2/opencv.hpp
 opencv2/highgui/highgui.hpp
 -
 config.h
-/home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/kSVD/config.h
+.././dictionarylearningbox/kSVD/config.h
 
-/home/manh/Research/LCKSVD_faceRecognition/main.cpp
-iostream
--
-iomanip
--
-iterator
--
-opencv2/core/core.hpp
--
-opencv2/opencv.hpp
--
-opencv2/highgui/highgui.hpp
--
-dictionarylearningbox/kSVD/kSVD.h
-/home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/kSVD/kSVD.h
-sparsecodingbox/omp.h
-/home/manh/Research/LCKSVD_faceRecognition/sparsecodingbox/omp.h
-config.h
-/home/manh/Research/LCKSVD_faceRecognition/config.h
-utilities/utilities.h
-/home/manh/Research/LCKSVD_faceRecognition/utilities/utilities.h
-
-/home/manh/Research/LCKSVD_faceRecognition/sparsecodingbox/omp.h
+.././sparsecodingbox/omp.h
 iomanip
 -
 iostream
@@ -68,9 +46,9 @@ opencv2/opencv.hpp
 opencv2/highgui/highgui.hpp
 -
 config.h
-/home/manh/Research/LCKSVD_faceRecognition/sparsecodingbox/config.h
+.././sparsecodingbox/config.h
 
-/home/manh/Research/LCKSVD_faceRecognition/utilities/utilities.h
+.././utilities/utilities.h
 opencv2/core.hpp
 -
 opencv2/opencv.hpp
@@ -88,6 +66,46 @@ curand.h
 thrust/host_vector.h
 -
 thrust/device_vector.h
+-
+
+/home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/LCKSVD/LCKSVD.h
+iostream
+-
+opencv2/core.hpp
+-
+opencv2/opencv.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+config.h
+/home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/LCKSVD/config.h
+
+/home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/LCKSVD/LCKSVD_initialize.cpp
+numeric
+-
+algorithm
+-
+functional
+-
+ctime
+-
+iterator
+-
+LCKSVD.h
+/home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/LCKSVD/LCKSVD.h
+dictionarylearningbox/kSVD/kSVD.h
+/home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/LCKSVD/dictionarylearningbox/kSVD/kSVD.h
+config.h
+/home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/LCKSVD/config.h
+utilities/utilities.h
+/home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/LCKSVD/utilities/utilities.h
+sparsecodingbox/omp.h
+/home/manh/Research/LCKSVD_faceRecognition/dictionarylearningbox/LCKSVD/sparsecodingbox/omp.h
+opencv2/core.hpp
+-
+opencv2/opencv.hpp
+-
+opencv2/highgui/highgui.hpp
 -
 
 /usr/local/cuda/include/builtin_types.h

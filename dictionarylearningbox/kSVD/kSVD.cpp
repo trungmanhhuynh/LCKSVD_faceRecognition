@@ -139,7 +139,7 @@ void kSVD_update_dictionary(std::vector<float> inputData, std::vector<float> &sp
 // * **************************************************************
 void kSVD(std::vector<float> &sparseCode, std::vector<float> &dictionary, std::vector<float> inputData, kSVDParameters param){
 
-	std::cout << "param.kSVDiteration = " << param.kSVDiteration << std::endl ;
+	std::cout << "param.kSVDiteration = " << param.iterations << std::endl ;
 	/*
 	std::cout << "input data col 8 = " << std::endl ;
 	copy(inputData.begin() + 7*param.featureSize, inputData.begin() + 8*param.featureSize, std::ostream_iterator<float>(std::cout, " ")); std::cout << std::endl;
@@ -158,7 +158,7 @@ void kSVD(std::vector<float> &sparseCode, std::vector<float> &dictionary, std::v
 	OMPParam.featureSize = param.featureSize; 
 	OMPParam.L = param.sparsityThres ;     
 
-	for(int iter = 0 ; iter < param.kSVDiteration ; iter++){
+	for(int iter = 0 ; iter < param.iterations ; iter++){
     
       std::cout <<"kSVD training iteration = " << iter << ": " ;
 		//find sparse codes  
