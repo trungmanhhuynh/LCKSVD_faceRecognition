@@ -1,1 +1,1 @@
-/home/manh/Research/kSVD_imgDenoise/build/CMakeFiles/denoise.dir
+/home/manh/Research/LCKSVD_faceRecognition/build/CMakeFiles/main.dir

@@ -126,6 +126,8 @@ float compute_variance(const std::vector<float> inVector);
 //Get current time 
 double get_seconds() ;
 
+//read csv file
+std::vector<float> csvread(std::string fileName); 
 #endif 
 
 

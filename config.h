@@ -23,15 +23,5 @@
 #define BOLDMAGENTA "\033[1m\033[35m"      /* Bold Magenta */
 
 //Changes these paramaters to make effect on results 
-const	int sigma = 25 ; 
-const	int sliding = 2; 
-const	int imgWidth = 160 ; 		//image is resized to this value
-const	int imgHeight = 160 ; 	   //image is resized to this value 
-const int patchWidth = 8 ; 
-const	int patchHeight = 8 ; 
-const	int featureSize = patchWidth*patchHeight; 
-const int numberIterationOfkSVD = 10 ;
-const int numberAtomsOfDictionary = 256 ;
-const int numberOfCoefficients = 5 ;   
 #endif
 

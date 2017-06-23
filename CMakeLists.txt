@@ -21,8 +21,8 @@ file(GLOB kSVD dictionarylearningbox/kSVD/kSVD.cpp)
 SET(GCC_COVERAGE_COMPILE_FLAGS "-fopenmp")
 SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}" )
 
-cuda_add_executable(denoise denoise.cpp ${sparsecoding} ${kSVD} ${utilities})
+cuda_add_executable(main main.cpp ${sparsecoding} ${kSVD} ${utilities})
        
-target_link_libraries(denoise ${OpenCV_LIBS} cublas cusolver)
+target_link_libraries(main ${OpenCV_LIBS} cublas cusolver)
 
  

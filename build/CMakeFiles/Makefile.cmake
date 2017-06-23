@@ -11,8 +11,8 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/2.8.12.2/CMakeCCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeSystem.cmake"
-  "CMakeFiles/denoise.dir/utilities/denoise_generated_mmul_cublas.cu.o.depend"
-  "CMakeFiles/denoise.dir/utilities/denoise_generated_mvmul_cublas.cu.o.depend"
+  "CMakeFiles/main.dir/utilities/main_generated_mmul_cublas.cu.o.depend"
+  "CMakeFiles/main.dir/utilities/main_generated_mvmul_cublas.cu.o.depend"
   "/usr/local/share/OpenCV/OpenCVConfig-version.cmake"
   "/usr/local/share/OpenCV/OpenCVConfig.cmake"
   "/usr/local/share/OpenCV/OpenCVModules-release.cmake"
@@ -45,12 +45,12 @@ SET(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 SET(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/denoise.dir/utilities/denoise_generated_mvmul_cublas.cu.o.cmake"
-  "CMakeFiles/denoise.dir/utilities/denoise_generated_mmul_cublas.cu.o.cmake"
+  "CMakeFiles/main.dir/utilities/main_generated_mvmul_cublas.cu.o.cmake"
+  "CMakeFiles/main.dir/utilities/main_generated_mmul_cublas.cu.o.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/denoise.dir/DependInfo.cmake"
+  "CMakeFiles/main.dir/DependInfo.cmake"
   )
